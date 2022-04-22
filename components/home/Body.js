@@ -6,6 +6,7 @@ import tw from 'twrnc';
 
 const bodyTw = tw`
   items-center
+  justify-center
   flex
   flex-row
   pt-20
@@ -16,9 +17,7 @@ const body__searchBarTw = tw`
   flex
   flex-row
   items-center
-  justify-center
   ml-2
-  w-full
 `;
 
 const body__customTextInputTw = tw`
@@ -42,6 +41,7 @@ const body__searchInputTw = tw`
 
 const body__searchInputIconTw = tw`
   -mr-10
+  text-[#1DB954]
   z-1
 `;
 
@@ -59,7 +59,6 @@ const Body = () => {
             style={body__searchInputIconTw}
             name="spotify"
             size={24}
-            color="#1DB954"
           />
           <TextInput style={body__searchInputTw} placeholder="playlist id" />
         </View>
