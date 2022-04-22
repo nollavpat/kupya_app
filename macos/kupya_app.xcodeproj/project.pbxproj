@@ -18,6 +18,7 @@
 		514201552437B4B40078DB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514201532437B4B40078DB4F /* Main.storyboard */; };
 		514201582437B4B40078DB4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 514201572437B4B40078DB4F /* main.m */; };
 		7A46B40C3F6D2FF0FE5BA1A1 /* libPods-kupya_app-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F07A2322967266BCB64BAA57 /* libPods-kupya_app-macOS.a */; };
+		CDD0754F2812A932006DCE1C /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = CDD0754E2812A932006DCE1C /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		9D32DFD059D5DB6DDEF38881 /* Pods-Shared-kupya_app-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-kupya_app-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Shared-kupya_app-iOS/Pods-Shared-kupya_app-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A82DFB63B157C65E5D698CA2 /* Pods-Shared-kupya_app-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-kupya_app-iOS.release.xcconfig"; path = "Target Support Files/Pods-Shared-kupya_app-iOS/Pods-Shared-kupya_app-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		BD73B64AF27308663DF8C9D1 /* Pods-kupya_app-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kupya_app-macOS.debug.xcconfig"; path = "Target Support Files/Pods-kupya_app-macOS/Pods-kupya_app-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD0754E2812A932006DCE1C /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		CE0E74F571E1F48FF00A8324 /* Pods-Shared-kupya_app-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-kupya_app-macOS.release.xcconfig"; path = "Target Support Files/Pods-Shared-kupya_app-macOS/Pods-Shared-kupya_app-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -91,6 +93,7 @@
 		1986A43FA6A91CFACDF0A798 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				CDD0754E2812A932006DCE1C /* Fonts */,
 				9D32DFD059D5DB6DDEF38881 /* Pods-Shared-kupya_app-iOS.debug.xcconfig */,
 				A82DFB63B157C65E5D698CA2 /* Pods-Shared-kupya_app-iOS.release.xcconfig */,
 				02422F9FB6FF5F34B4E63E6F /* Pods-Shared-kupya_app-macOS.debug.xcconfig */,
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD0754F2812A932006DCE1C /* Fonts in Resources */,
 				514201522437B4B40078DB4F /* Assets.xcassets in Resources */,
 				514201552437B4B40078DB4F /* Main.storyboard in Resources */,
 			);
