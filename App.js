@@ -1,7 +1,7 @@
 import React from 'react';
 import {View} from 'react-native';
 
-import Home from './components/home/Home';
+import Home from './src/components/home/Home';
 
 const App = () => {
   return (
