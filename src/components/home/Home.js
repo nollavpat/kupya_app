@@ -1,8 +1,8 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {View} from 'react-native';
 import tw from 'twrnc';
 
-import Body from './Body';
+import Body from './body/Body';
 import Header from './Header';
 
 const homeTw = tw`
